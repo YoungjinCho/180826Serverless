@@ -86,5 +86,13 @@ https://novemberde.github.io
   Expiration Date도 있어서 관리하긴 편함. 다만 쿼리가 불편해서 다이나모 쓰지 못함.
   몽구스 쓰듯이 찾을 수 있는 라이브러리가 있음.
   
-  // 
+  // 점심시간
   
+8. Serverless Framework: 인프라가 아닌 App에 집중합니다.
+
+  일반적으로 global로 프로젝트를 진행하진 않지만 편의상 글로벌로 설치
+  그리고 aws-sdk같은 경우, 서버에 올릴땐 제공되서 import해주지 않아도 되지만, 개발할 때는 필요.
+  
+  람다가 dynamoDB 접근 권한에 대한 정보가 있어야 함.
+  
+  npm deploy에 serverless deploy로 정의 해두 면 npm run deploy하면 실행이 되고 devDependencies 내용 대로 deploy 됨.
